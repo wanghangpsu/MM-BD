@@ -1,6 +1,6 @@
 # Universal Post-Training Backdoor Detection
 
-This is the implementation of the NeurIPS 2022 Submission: Universal Post-Training Backdoor Detection
+This is the implementation of the paper: Universal Post-Training Backdoor Detection
 
 
 This repository includes:
