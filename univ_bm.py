@@ -132,6 +132,11 @@ print('c: ' + str(c))
 
 print(args.model_dir)
 testset = torchvision.datasets.CIFAR10(root='./data', train=False, download=True, transform=transform_test)
+all_ind = []
+for s in range(10):
+    ind = [i for i, label in enumerate(testset.targets) if label == s]
+    all_ind += ind[50:]
+testset = torch.utils.data.Subset(testset, all_ind)
 testloader = torch.utils.data.DataLoader(testset, batch_size=100, shuffle=False, num_workers=2)
 
 correct = 0
