@@ -12,7 +12,7 @@ This repository includes:
 
 
 ## Requirements
-Ubuntu 20.24
+Ubuntu 20.04
 Python 3.7
 - Install required python packages:
 ```bash
