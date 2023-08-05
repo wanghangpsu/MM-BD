@@ -1,12 +1,13 @@
-# Universal Post-Training Backdoor Detection
+# MMBD: Post-Training Detection of Backdoor Attacks with Arbitrary Backdoor Pattern Types Using a Maximum Margin Statistic
 
-This is the implementation of the paper: Universal Post-Training Backdoor Detection
+This is the implementation of the paper: MMBD: Post-Training Detection of Backdoor Attacks with Arbitrary Backdoor Pattern Types Using a Maximum Margin Statistic
 
+The mitigation method was the second place at the first IEEE Trojan Removal Competition (https://www.trojan-removal.com/?page_id=2)
 
 This repository includes:
 - Training code for the clean model and attacked model.
-- UnivBD backdoor detection code.
-- UnivBM backdoor mitigation code.
+- MMBD backdoor detection code.
+- MMMB backdoor mitigation code.
 
 
 
@@ -40,7 +41,7 @@ $ ./run_attack.sh
 
 Which gives 10 attacked modes saved in ./model0 to ./model9 folders
 
-## UnivBD Detection
+## MMBD Detection
 Run_command:
 ```bash
 $ ./run_detect.sh
@@ -48,7 +49,7 @@ $ ./run_detect.sh
 Which applies the UnivBD method on all the models. 
 
 
-## UnivBM Mitigation
+## MMMB Mitigation
 
 Run:
 ```bash
