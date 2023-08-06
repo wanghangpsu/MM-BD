@@ -1,13 +1,13 @@
 # MM-BD: Post-Training Detection of Backdoor Attacks with Arbitrary Backdoor Pattern Types Using a Maximum Margin Statistic
 
-This is the implementation of the paper: MMBD: Post-Training Detection of Backdoor Attacks with Arbitrary Backdoor Pattern Types Using a Maximum Margin Statistic
+This is the implementation of the paper: MM-BD: Post-Training Detection of Backdoor Attacks with Arbitrary Backdoor Pattern Types Using a Maximum Margin Statistic
 
 The mitigation method was the second place at the first IEEE Trojan Removal Competition (https://www.trojan-removal.com/?page_id=2)
 
 This repository includes:
 - Training code for the clean model and attacked model.
-- MMBD backdoor detection code.
-- MMMB backdoor mitigation code.
+- MM-BD backdoor detection code.
+- MM-BM backdoor mitigation code.
 
 
 
