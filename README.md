@@ -55,3 +55,16 @@ Run:
 ```bash
 $ ./run_mitigate.sh
 ```
+
+
+## <a name="Citation"></a>Citation
+
+Please consider citing our work if it helps your research.
+```bib
+@inproceedings{MM-BD,
+    title={MM-BD: Post-Training Detection of Backdoor Attacks with Arbitrary Backdoor Pattern Types Using a Maximum Margin Statistic},
+    author={Wang, Hang and Xiang, Zhen and Miller, David J and Kesidis, George},
+    booktitle={IEEE Symposium on Security and Privacy},
+    year={2024},
+}
+```
