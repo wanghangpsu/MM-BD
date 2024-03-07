@@ -33,7 +33,7 @@ $ ./run_clean.sh
 ```
 Which gives 10 clean models saved in ./clean0 to ./clean9 folders
 
-For attack models (A3-M in the paper)
+For attack models (BadNet in the paper)
 run_command:
 ```bash
 $ ./run_attack.sh
@@ -55,7 +55,9 @@ Run:
 ```bash
 $ ./run_mitigate.sh
 ```
+## Questions&issues
 
+if you run into any issues in running the experiments (e.g. on different model architectures), or have any questions, please contact wanghangpsu@gmail.com for help!
 
 ## <a name="Citation"></a>Citation
 
